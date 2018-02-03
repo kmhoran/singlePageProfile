@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+      <app-short-cv class="app-short-cv"></app-short-cv>
+    </div>
+  </div>
+  <!-- /.row -->
+  <div class="row portfolio-tiles">
+    <div *ngFor="let project of projects" class="project col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+      <a [routerLink]="['/project', project.id]">
+        <div class="project-image-frame">
+          <img [src]="project.imagePath" class="project-image">
+        </div>
+        <div class="project-title-frame">
+          <div class="project-title">
+            {{project.title}}
+          </div>
+          <div class="project-year">
+            {{project.year}}
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- /.row -->
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <app-cv-long></app-cv-long>
+    </div>
+  </div>
+</div>

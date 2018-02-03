@@ -1,0 +1,25 @@
+.project-image-frame {
+    padding: 0;
+}
+
+.project-image {
+    width: 100%;
+    margin: 0;
+}
+
+.blog {
+    background-color: #372248;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.content {
+    margin: 1em;
+    font-size: 1.5em;
+}
+p{
+    margin-bottom: 1em;
+    border: 1px solid red;
+}

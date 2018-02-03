@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.app {
+    background-color: #171123 !important;
+    color: #eee;
+    min-height: 100%
+}
+.container-fluid{
+    background-color: #171123;
+}
+
+nav {
+    background-color: #171123;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #eee;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #5B85AA;
+}
+
+.navbar-default {
+    border-color: #171123;
+}
+
+nav .navbar-brand {
+    color: #BDD3E7;
+    background-color: #171123;
+    font-size: 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+ /* nav .nav-icon{
+    color: #eee;
+} */
+nav .navbar-nav{
+    background-color:  #171123;
+}
+
+/* nav .nav-item{
+    color: #eee;
+} */
+/* .container {
+    height: 10em;
+} */
+

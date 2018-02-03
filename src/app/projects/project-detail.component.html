@@ -1,0 +1,41 @@
+<div class="container" *ngIf="project">
+  <div class="row">
+    <div class="project-image-frame col-md-5 col-md-offset-1  col-sm-5 col-sm-offset-1   col-xs-12 col-xs-offset-0">
+      <div class="project-image-frame">
+        <img [src]="project.imagePath" class="project-image">
+      </div>
+
+
+    </div>
+    <!--  /.project-image-frame -->
+    <div class="project-details col-md-5  col-sm-5 col-xs-12">
+
+      <div class="project-title">
+        {{project.title}}
+      </div>
+      <div class="project-year">
+        {{project.year}}
+      </div>
+      <div>
+        <ul>
+          <li *ngFor="let tech of project.technologies">
+            {{tech}}
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+    <!-- /.project-details -->
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1  col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 blog">
+      <div class="content">
+         <showdown [src]="project.blogPath" [options]="markdownOptions"></showdown>
+      </div>
+      <!-- /.block -->
+    </div>
+    <!-- /.blog -->
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container-fluid -->

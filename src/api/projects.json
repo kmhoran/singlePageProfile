@@ -1,0 +1,83 @@
+[
+    {
+        "id": "profile_project",
+        "title": "kmhoran.github.io",
+        "technologies": [
+            "Angular (5)",
+            "Angilar Cli",
+            "Markdown",
+            "GitHub"
+        ],
+        "imagePath": "./assets/images/resume-small-rec.jpg",
+        "year":2018,
+        "blogPath": "./assets/markdown/project_kmhoran.github.io.md"
+    },
+    {
+        "id": "photobooth",
+        "title": "Git Photobooth",
+        "technologies": [
+            "Python",
+            "Git",
+            "Bash"
+        ],
+        "imagePath": "./assets/images/selfie-small-rec.jpg",
+        "year":2018,
+        "blogPath": "./assets/markdown/project_gitPhotobooth.md"
+    },
+    {
+        "id": "rabbitMqClient",
+        "title": "RabbitMq Client",
+        "technologies": [
+            "C#",
+            "RabbitMQ Message Broker"
+        ],
+        "imagePath": "./assets/images/line-small-rec.jpg",
+        "year":2018,
+        "blogPath": "./assets/markdown/project_rabbitMqClient.md"
+    },
+    {
+        "id": "webScraper",
+        "title": "Python Web Scraper",
+        "technologies": [
+            "Python",
+            "Raspberry Pi"
+        ],
+        "imagePath": "./assets/images/spider-small-rec.jpg",
+        "year":2018,
+        "blogPath": "./assets/markdown/project_webScraper.md"
+    },
+    {
+        "id": "imageRendering",
+        "title": ".Net Image Rendering",
+        "technologies": [
+            "C#",
+            "ASP.Net",
+            "Entity Framework"
+        ],
+        "imagePath": "./assets/images/screen-small-rec.jpg",
+        "year":2017,
+        "blogPath": "./assets/markdown/project_imageRendering.md"
+    },
+    {
+        "id": "zipRecruitHack",
+        "title": "ZipRecruiter Hackathon",
+        "technologies": [
+            "C#",
+            "Javascript"
+        ],
+        "imagePath": "./assets/images/handshake-small-rec.jpg",
+        "year":2017,
+        "blogPath": "./assets/markdown/project_zipRecruitHack.md"
+    },
+    {
+        "id": "gameJS",
+        "title": "GameJS",
+        "technologies": [
+            "Javascript",
+            "jQuery"
+        ],
+        "imagePath": "./assets/images/game-small-rec.jpg",
+        "year":2016,
+        "blogPath": "./assets/markdown/project_gameJS.md"
+    }
+]
