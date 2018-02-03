@@ -9,10 +9,13 @@ Microservices are all about seperating the concerns and logic from the different
 
 The problem with maintaining a system of these autonymous, distributed services is managing communication between them. While there are many srategies for acheiving this (such as RESTful request/response) [many prefer](https://www.oreilly.com/ideas/what-is-a-reactive-microservice) to use the truly asyncronous, event-based communication that RabbitMQ and other message brokers provide.
 
+
+<br/>
+![alt text](./assets/images/blocking-request.jpg "Http blocking")
 <br/>
 
 
-The complete setup for RabbitMQ is outlined in their [Getting Started/ Download](https://www.rabbitmq.com/install-windows.html) section. For C# programmers, this largely involves, installing [Erlang](http://www.erlang.org/downloads), running the RabbitMQ server, and installing the RabbitMQ Client (available through Nuget) -- again all outlined on the RabbitMQ site. There are several different configurations detailed in their Getting started tutorial (each differing only very slightly from the others), but my team has found that the *Topic Exchange* fits our needs the best.
+The complete setup for RabbitMQ is outlined in their [Getting Started/ Download](https://www.rabbitmq.com/install-windows.html) section. For C# programmers, this largely involves, installing [Erlang](http://www.erlang.org), running the RabbitMQ server, and installing the RabbitMQ Client (available through Nuget) -- again all outlined on the RabbitMQ site. There are several different configurations detailed in their Getting started tutorial (each differing only very slightly from the others), but my team has found that the *Topic Exchange* fits our needs the best.
 
 <br/>
 
