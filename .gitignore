@@ -8,3 +8,4 @@ package.json
 tsconfig.json
 tslint.json
 *.log
+karma.conf.js
