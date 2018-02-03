@@ -11,6 +11,7 @@
     position: relative;
 }
 
+
 .frame:hover{
     background-color:  #49315B;
     cursor: pointer;
@@ -60,6 +61,10 @@
     color: #5B85AA;
     font-weight: 700;
 }
+
 .objective{
     margin: 1em 3em;
+}
+.app-short-cv .objective{
+    text-decoration: none;
 }

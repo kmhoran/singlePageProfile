@@ -6,12 +6,11 @@
     min-height: 100%
 }
 .container-fluid{
-    background-color: #171123;
+    /* background-color: #171123; */
+    background-color: #222;
+    padding-bottom: 0.7em;
 }
 
-nav {
-    background-color: #171123;
-}
 
 .navbar-default .navbar-nav>li>a {
     color: #eee;
@@ -28,7 +27,7 @@ nav {
 
 nav .navbar-brand {
     color: #BDD3E7;
-    background-color: #171123;
+    /* background-color: #171123; */
     font-size: 3em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -37,7 +36,7 @@ nav .navbar-brand {
     color: #eee;
 } */
 nav .navbar-nav{
-    background-color:  #171123;
+    /* background-color:  #171123; */
 }
 
 /* nav .nav-item{
