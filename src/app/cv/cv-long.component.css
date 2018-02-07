@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.frame {
+    /* border: #aaa 2px solid; */
+    min-height: 10em;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #372248;
+    margin-bottom: 2em;
+    overflow: hidden;
+    position: relative;
+}
+.contact-info{
+    margin: 0 2em;
+}
+.link-icon{
+  position: absolute;
+  left: 94%;
+  font-size: 1.2em;
+  opacity: 0;
+}
+
+.image-frame {
+    border: 2px solid #F46036;
+    overflow: hidden;
+    border-radius: 500px;
+    height: 10em;
+    width: 10em;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.name{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.email:not(.fa){
+    color: #5B85AA;
+    font-weight: 700;
+}
+
+.about-title{
+    font-size: 1.7em;
+    color:  #F46036;
+}
+.about{
+    margin: 1em 1em;
+}
+.app-short-cv .objective{
+    text-decoration: none;
+}

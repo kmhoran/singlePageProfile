@@ -13,6 +13,10 @@
 
 "imagePath": "./assets/images/profile-sm.jpg",
 
+"resumePath": "./assets/documents/KevinHoran_CVEng040417dotNetDev.pdf",
+
+"bio": "I am a .NET developer in Southern California passionate about technology and software development. If you have a project you're working on or know of someone who does, I'd love to hear about it.",
+
 "objective":
 
 "To work in an energetic and growing company that will provide me with room to advance my career. I am looking for a position where I can make use of my technical and creative skills.",
@@ -21,35 +25,23 @@
 [{
 "position": "Full-Stack .NET Developer",
 "company": "QuoteMule", 
-"dates":"Oct 2016 - present",
+"dates":"Oct 2016 - April 2017",
 "overview":
-"• Team-built web application aimed at streamlining the contract bidding process between construction contractors and their clients. • This project utilizes a C# ASP.NET MVC & MSSQL backend to implement a WebApi 2 infrastructure running a jQuery, AJAX & AngularJs frontend. • I was personally responsible for creating a workflow state machine using the .NET Stateless library, drag-and-drop file-upload feature with DropZone, and an interactive AI powered chatbot which leverages Microsoft’s LUIS machine learning technology. I also contributed to implementing a real-time messaging and notification system powered by the Signal R library. • I also made use of numerous other libraries and external APIs including, GMaps, Twilio, SendGrid, AWS, BrainTree, DropZone, PDFSharp, and MigraDoc. • In this project, the team has adopted industry best practices such as Agile/Scrum with Trello management, Dependency Injection, and Service-Oriented Architecture."
+["Team-built web application aimed at streamlining the contract bidding process between construction contractors and their clients.","This project utilizes a C# ASP.NET MVC & MSSQL backend to implement a WebApi 2 infrastructure running a jQuery, AJAX & AngularJs frontend.","I was personally responsible for creating a workflow state machine using the .NET Stateless library, drag-and-drop file-upload feature with DropZone, and an interactive AI powered chatbot which leverages Microsoft’s LUIS machine learning technology. I also contributed to implementing a real-time messaging and notification system powered by the Signal R library.","I also made use of numerous other libraries and external APIs including, GMaps, Twilio, SendGrid, AWS, BrainTree, DropZone, PDFSharp, and MigraDoc.","In this project, the team has adopted industry best practices such as Agile/Scrum with Trello management, Dependency Injection, and Service-Oriented Architecture."]
 },
 {
-"position": "Data Analyst",
-"company": "AppleOne", 
-"dates": "Jul 2016 - Oct 2016",
+"position": "Developer",
+"company": "Expedition Hackathon", 
+"dates": "March 2017",
 "overview":
-"Data processing and analysis. Microsoft Office Suite. Independently developed a Python application to format, update, and standardize employee records, along with other HR data."
-},
-{
-"position": "English-Language Instructor",
-"company": "Centre International d’Etudes Pédagogiques (CIEP)", 
-"dates": "Sep 2015 - Jun 2016",
-"overview":
-"High-school English Teacher in France. Specialized in English instruction for computer-science classes."
+["Hackathon hosted by the National GeoSpacial-Intelligence Agency.","Working with data provicec by the Descartes Labs to build a solution which predict and combats food shortages in Morocco.","Employed HTML, CSS, Javascript, jQuery, Carto, C#, ASP.NET MVC, MS SQL Server."]
 }],
 
 "education":
 [{
 "school": "University of California, Irvine",
-"degree": "B.A.",
-"subject": "International Studies with Economics Minor"
-},
-{
-"school": "Sciences Po Lyon",
-"degree": "Attestation d’Etudes Politiques",
-"subject": "Political Economics"
+"degree": "B.A. International Studies (Economics Minor)",
+"overview":["Economics", "Introduction to HTML, CSS, JavaScript, and Pyhton."]
 }],
 
 "skills":

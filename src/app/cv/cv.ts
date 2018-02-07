@@ -6,7 +6,9 @@ export interface ICv {
     linkedIn: string;
     portfolio: string;
     imagePath: string;
+    resumePath: string;
     objective: string;
+    bio: string;
     employment: IEmployment[];
     education: ISchool[];
     skills: string[];
@@ -18,13 +20,13 @@ export interface IEmployment {
     position: string;
     company: string;
     dates: string;
-    overview: string;
+    overview: string[];
 }
 
 export interface ISchool{
     school: string;
     degree: string;
-    subject: string;
+    Overview: string[];
 }
 
 export interface ILanguage{

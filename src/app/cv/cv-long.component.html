@@ -1,3 +1,82 @@
-<p>
-  cv-long works!
-</p>
+<div class="container" *ngIf="cv">
+  <div class="frame" >
+    <div class="row contact-info">
+      <div class="col-md-3 col-sm-3 col-xs-12 profile-image">
+        <div class="image-frame rounded-circle">
+          <img [src]="cv.imagePath" class="image rounded-circle">
+        </div>
+      </div>
+      <!-- /.profile-image -->
+      <div class="col-md-9 col-sm-9 col-xs-12 profile-details">
+        <div class="name">{{cv.name}}</div>
+        <div class="title">{{cv.title}}</div>
+        <div class="email">
+          <span class="fa fa-envelope-o"></span> {{cv.email}}
+        </div>
+        <div class="phone">
+          <span class="fa fa-phone"></span> {{cv.phone}}
+        </div>
+        <br/>
+        <a [href]="cv.resumePath" target="_blank">
+          <button class="btn btn-success">
+            <span class="fa fa-file-pdf-o"></span> CV/Resume</button>
+        </a>
+      </div>
+    </div>
+    <!-- /.contact-info -->
+    <div class="row about">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="about bio">
+          <div class="about-title">About me</div>
+          {{cv.bio}}
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="about objective">
+          <div class="about-title">What I am looking for</div>
+          {{cv.objective}}
+        </div>
+      </div>
+    </div>
+    <!-- /.about -->
+  </div>
+  <!-- /.frame -->
+  <div class="row experience">
+    <div class="element-title">Experience</div>
+    <hr/>
+    <div class="row" *ngFor="let job of cv.employment">
+      <div class="col-md-6 col-sm-6 col-xs-12 job-index">
+        <div class="company-name">{{job.company}}</div>
+        <div class="company-dates">
+          {{job.dates}}
+        </div>
+      </div>
+      <!-- /.job-index -->
+      <div class="col-md-6 col-sm-6 col-xs-12 job-description">
+        <div class="element-title">{{job.position}}</div>
+        <ul>
+          <li *ngFor="let item of job.overview">{{item}}</li>
+        </ul>
+      </div>
+      <!-- job-description -->
+    </div>
+  </div>
+  <!-- /.experience -->
+  <div class="row education">
+    <h2 class="education-title">Education</h2>
+    <hr/>
+    <div class="row" 
+         *ngFor="let school of cv.education">
+      <div class="col-md-6 col-sm-6 col-xs-12 school-index">
+        <div class="school-name">
+            {{school.school}}
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12 school-description">
+        <div class="element-title">{{school.degree}}</div>
+      </div>
+    </div>
+  </div>
+  <!-- /.education -->
+</div>
+<!-- /.container -->
