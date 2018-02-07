@@ -12,6 +12,7 @@ import { ProjectDetailComponent } from './projects/project-detail.component';
 import { ProjectGuardService } from "./projects/project-guard.service";
 import { HomeComponent } from './home/home.component';
 import { CvLongComponent } from './cv/cv-long.component';
+import { MinesweeperComponent } from './minesweeper/minesweeper.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CvLongComponent } from './cv/cv-long.component';
     ShortCvComponent,
     ProjectDetailComponent,
     HomeComponent,
-    CvLongComponent
+    CvLongComponent,
+    MinesweeperComponent
   ],
   imports: [
     BrowserModule,
@@ -31,8 +33,9 @@ import { CvLongComponent } from './cv/cv-long.component';
       {
         path: 'project/:id',
         component: ProjectDetailComponent,
-        canActivate: [ProjectGuardService]
+       // canActivate: [ProjectGuardService]
       }, 
+      { path: 'minesweeper', component: MinesweeperComponent },
       { path: 'profile', component: CvLongComponent },
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
