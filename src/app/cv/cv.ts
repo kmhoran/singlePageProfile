@@ -11,7 +11,7 @@ export interface ICv {
     bio: string;
     employment: IEmployment[];
     education: ISchool[];
-    skills: string[];
+    skills: ISkill[];
     languages: ILanguage[];
     personalInterests: string[];
 }
@@ -27,6 +27,11 @@ export interface ISchool{
     school: string;
     degree: string;
     Overview: string[];
+}
+
+export interface ISkill{
+    name: string;
+    rating: number;
 }
 
 export interface ILanguage{
