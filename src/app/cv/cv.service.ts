@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { ICv } from "./cv";
 import { HttpInterceptor } from "../shared/http-interceptor.service"
+import { StarRatingComponent } from '../shared/star-rating.component';
 
 import { Observable } from "rxjs/Rx"
 

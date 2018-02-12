@@ -83,5 +83,23 @@
     </div>
   </div>
   <!-- /.education -->
+  <div class="row skills">
+    <h2>Skills</h2>
+    <hr/>
+    <div class="skill-deck">
+      <div class="skill-card col-md-6 col-sm-6 col-xs-12"
+           *ngFor="let skill of cv.skills">
+        <app-star-rating
+          [name]="skill.name"
+          [rating]="skill.rating"></app-star-rating>  
+  
+      </div>
+      <!--  /.skill-card -->
+    </div>
+    <!--  /.skill-deck -->
+    <br/>
+    <h3>More stuff...</h3>
+  </div>
+  <!-- /.skills -->
 </div>
 <!-- /.container -->

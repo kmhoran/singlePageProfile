@@ -13,6 +13,7 @@ import { ProjectGuardService } from "./projects/project-guard.service";
 import { HomeComponent } from './home/home.component';
 import { CvLongComponent } from './cv/cv-long.component';
 import { MinesweeperComponent } from './minesweeper/minesweeper.component';
+import { StarRatingComponent } from './shared/star-rating.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MinesweeperComponent } from './minesweeper/minesweeper.component';
     ProjectDetailComponent,
     HomeComponent,
     CvLongComponent,
-    MinesweeperComponent
+    MinesweeperComponent,
+    StarRatingComponent
   ],
   imports: [
     BrowserModule,

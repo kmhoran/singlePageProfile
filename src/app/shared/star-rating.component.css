@@ -1,0 +1,44 @@
+.rating-card{
+    border: 2px solid #49315B;
+    border-radius: 5px;
+    margin: 0.7em 0;
+    /* padding: 1em; */
+    background-color: #49315B;
+    transition: all 0.3s;
+}
+.rating-card:hover{
+    border-color: #F46036;
+    cursor: pointer;
+}
+.star-rating-name{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.rating-card:hover .star-rating-rating{
+    color: #F46036;
+    transition: all 0.3s;
+}
+.star-rating-content{
+    /* display: inline; */
+    margin: 0.7em 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

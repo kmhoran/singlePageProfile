@@ -1,0 +1,21 @@
+<div class="row rating-card">
+  <div class="col-md-6 col-sm-6 colxs-6 star-rating-name star-rating-content">{{name}}</div> 
+  <div class="col-md-6 col-sm-6 colxs-6 star-rating-rating star-rating-content">
+    <span class="fa fa-star"
+          *ngIf="rating>0"></span>
+    <span class="fa fa-star"
+          *ngIf="rating>1"></span>
+    <span class="fa fa-star"
+          *ngIf="rating>2"></span>
+    <span class="fa fa-star"
+          *ngIf="rating>3"></span>
+    <span class="fa fa-star"
+          *ngIf="rating>4"></span>
+    <span class="fa fa-star-o"
+          *ngIf="rating<5"></span>
+    <span class="fa fa-star-o"
+          *ngIf="rating<4"></span>
+    <span class="fa fa-star-o"
+          *ngIf="rating<3"></span>
+  </div>
+</div>

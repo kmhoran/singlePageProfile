@@ -53,7 +53,11 @@
       "rating": 4
     },
     {
-      "name": "ajax",
+      "name": "Typescript",
+      "rating": 4
+    },
+    {
+      "name": "Ajax",
       "rating": 4
     },
     {
@@ -180,15 +184,18 @@
   "languages": [
     {
       "name": "English",
-      "level": "Natively fluent"
+      "level": "Natively fluent",
+      "rating": 5
     },
     {
       "name": "French",
-      "level": "Advanced (Delf B2)"
+      "level": "Fluent",
+      "rating": 4
     },
     {
-      "name": "Portuguese",
-      "level": "Intermediate"
+      "name": "Esperanto",
+      "level": "Conversational",
+      "rating":3
     }
   ],
   "personalInterests": [
