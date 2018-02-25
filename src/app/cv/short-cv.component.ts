@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 import {ICv} from "./cv";
 import {CvService} from "./cv.service";
@@ -12,7 +14,12 @@ export class ShortCvComponent implements OnInit {
 
 cv: ICv;
 
-  constructor(private _cvService: CvService) { }
+  constructor(private _cvService: CvService, private router: Router) { }
+
+
+  onClick(){
+    this.router.navigate(['/profile']);
+  }
 
   ngOnInit() {
     this._cvService.getCv()
