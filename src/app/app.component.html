@@ -1,27 +1,4 @@
 <div class="app">
-  <!-- <nav class='navbar navbar-default'>
-    <div class='container-fluid'>
-      <a class='navbar-brand'
-         [routerLink]="['/home']">{{pageTitle}}</a>
-      <ul class='navbar navbar-nav hidden-xs-down'>
-        <li>
-          <a [routerLink]="['/home']">Home</a>
-        </li>
-        <li>
-          <a [routerLink]="['/profile']">Profile</a>
-        </li>
-        <li>
-          <a [routerLink]="['/project/0']">Snippets</a>
-        </li>
-        <li>
-          <a href="https://github.com/kmhoran" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/kevin-horan-3783a062/" target="_blank">LinkedIn</a>
-        </li>
-      </ul>
-    </div>
-  </nav> -->
 
   <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -70,5 +47,30 @@
   </nav>
 
   <router-outlet></router-outlet>
-
+<div class="footer">
+  <div class="name">Kevin Horan</div>
+  <div class="location">Los Angeles</div>
+  <div class="phone"><span class="fa fa-phone"></span> (949) 411-1324</div>
+  <div class="email"><span class="fa fa-envelope"></span> kevin.michael.horan@gmail.com</div>
+  <div class="social-media">
+    <a href=""
+       target="_blank"
+       class="site">
+      <span class="fa fa-linkedin-square fa-3x"></span>
+      </a>
+      <a href=""
+       target="_blank"
+       class="site">
+      <span class="fa fa-github fa-3x"></span>
+      </a>
+      <a href=""
+       target="_blank"
+       class="site">
+      <span class="fa fa-twitter-square fa-3x"></span>
+      </a>
+  </div>
+  <div class="copyright">Copyright © MIT</div>
 </div>
+<!-- ./footer -->
+</div>
+<!-- /.app -->

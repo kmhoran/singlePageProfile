@@ -11,9 +11,19 @@
   "objective": "To work in an energetic and growing company that will provide me with room to advance my career. I am looking for a position where I can make use of my technical and creative skills.",
   "employment": [
     {
+      "position": ".NET Developer",
+      "company": "Millennium Space Systems",
+      "dates": "May 2017 - April 2017",
+      "overview": [
+        "Development of Software for the management of the Aerospace company. Everything from building UI rich, employee-facing features to architectural innovations behind the scenes.",
+        " Personally introduced and implement Angular JS. Personally introduced and implemented a distributed microservice architecture through DDD.",
+        "Angular JS, jQuery, Sass ASP.Net, C#, MVC, WCF, Windows Services, HTTP, AJAX, JSON, Entity Framework, mss SQL server, TSQL, RabbitMQ, Git, TeamCity."
+      ]
+    },
+    {
       "position": "Full-Stack .NET Developer",
       "company": "QuoteMule",
-      "dates": "Oct 2016 - April 2017",
+      "dates": "October 2016 - April 2017",
       "overview": [
         "Team-built web application aimed at streamlining the contract bidding process between construction contractors and their clients.",
         "This project utilizes a C# ASP.NET MVC & MSSQL backend to implement a WebApi 2 infrastructure running a jQuery, AJAX & AngularJs frontend.",

@@ -13,6 +13,16 @@
         "blogPath": "./assets/markdown/project_kmhoran.github.io.md"
     },
     {
+        "id": "blockChain",
+        "title": "Block Chain",
+        "technologies": [
+            "Python"
+        ],
+        "imagePath": "./assets/images/blocks-rec.jpg",
+        "year":2018,
+        "blogPath": "./assets/markdown/project_blockChain.md"
+    },
+    {
         "id": "photobooth",
         "title": "Git Photobooth",
         "technologies": [
@@ -35,17 +45,7 @@
         "year":2018,
         "blogPath": "./assets/markdown/project_rabbitMqClient.md"
     },
-    {
-        "id": "webScraper",
-        "title": "Python Web Scraper",
-        "technologies": [
-            "Python",
-            "Raspberry Pi"
-        ],
-        "imagePath": "./assets/images/spider-small-rec.jpg",
-        "year":2018,
-        "blogPath": "./assets/markdown/project_webScraper.md"
-    },
+
     {
         "id": "imageRendering",
         "title": ".Net Image Rendering",
@@ -58,17 +58,7 @@
         "year":2017,
         "blogPath": "./assets/markdown/project_imageRendering.md"
     },
-    {
-        "id": "zipRecruitHack",
-        "title": "ZipRecruiter Hackathon",
-        "technologies": [
-            "C#",
-            "Javascript"
-        ],
-        "imagePath": "./assets/images/handshake-small-rec.jpg",
-        "year":2017,
-        "blogPath": "./assets/markdown/project_zipRecruitHack.md"
-    },
+
     {
         "id": "gameJS",
         "title": "GameJS",

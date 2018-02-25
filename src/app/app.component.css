@@ -46,3 +46,26 @@ nav .navbar-nav{
     height: 10em;
 } */
 
+.footer{
+    min-height: 5em;
+    padding: 2em 0;
+    text-align:center;
+}
+.footer .name{
+    font-weight: 700;
+}
+.footer .social-media{
+    margin: 1em 0;
+}
+.footer .site{
+    margin: 0 1em;
+    text-decoration: none;
+}
+.footer .site:hover{
+    color: #F46036;
+}
+.footer .copyright{
+    padding-top: 1em;
+}
+
+
