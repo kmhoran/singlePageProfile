@@ -8,7 +8,7 @@ Everyone and their mom is talking about BitCoin these days.
 
 <br/>
 
-## Goals
+### Goals
 
 1. Create a simple but complete demonstration of how the many moving parts of a disributed ledger fit together.
 
@@ -113,6 +113,62 @@ To create a barrier to entry, manufacture scarcity, and prevent any single miner
 
 <br/>
 
-For this project 
+For this project, Blocks must calculate a nonce that will produce a hash that begins with a given number of zeros. 
 
- 
+<br/>
+
+```python
+def calculate_nonce(self):
+    while(str(self.hash)[0:self.workDifficulty] != '0' * self.workDifficulty):
+        self.nonce += 1
+``` 
+
+<br/>
+
+The advantage of using this type of "hash cracking" to provide a proof of work is that it is very easy to verify. This means that while a miner has to invest considerable resources to produce a valid proof of work, a chain can quickly cycle through all the blocks in a ledger to verify their validity.
+
+<br/>
+
+```python
+class Chain:
+    ...
+    def is_ledger_valid(self, ledger):
+        if(ledger is None or len(ledger) == 0):
+            return false
+
+        for i in range(len(ledger)-1, -1,-1):
+            if i == 0:
+                if ledger[i].data != Chain.origin_data():
+                    return False
+                continue
+
+            if ledger[i].previous_hash != ledger[i-1].hash:
+                return False
+            
+            if not self.block_has_valid_proof_of_work(ledger[i]):
+                return False
+        
+        return True
+    
+
+    
+    def block_has_valid_proof_of_work(self, block):
+
+        # Proof of work must be up to this chain's standard
+        if self.difficulty > block.workDifficulty:
+            return False
+        
+        # Block must meet its own proof of work standard
+        if str(block.hash)[0:block.workDifficulty] != '0' * block.workDifficulty:
+            return False
+
+        return True
+```
+<br/>
+The thing that struck me the most was how dramatically simple and effective this proof of work is. As the difficulty value increased, the work required by a miner grows exponentially. A level 4 difficulty took my computer a couple seconds to mine three blocks. At level 15, the machine had been working for a half hour before I finally killed it. Not one block mined.
+
+<br/>
+
+### Moving Forward
+
+All in all, this was a fun foray into one of 2018's hottest technologies. I am really exited for the where we're going to see this in the years to come. Personally, I'd like to try implementing blockchain in some type of IoT or home automation project. I love the idea of independent peers being able to draw from and add to a collective ledger, like machines sharing a collective history. It's a radical thing. 
