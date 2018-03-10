@@ -18,7 +18,8 @@
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #5B85AA;
+    /* color: #5B85AA; */
+    color: #F46036;
 }
 
 .navbar-default {
@@ -26,7 +27,8 @@
 }
 
 nav .navbar-brand {
-    color: #BDD3E7;
+    /* color: #BDD3E7; */
+    color: #eee;
     /* background-color: #171123; */
     font-size: 3em;
     font-family: 'Source Sans Pro', sans-serif;

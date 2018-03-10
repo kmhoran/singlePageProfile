@@ -118,9 +118,11 @@ For this project, Blocks must calculate a nonce that will produce a hash that be
 <br/>
 
 ```python
-def calculate_nonce(self):
-    while(str(self.hash)[0:self.workDifficulty] != '0' * self.workDifficulty):
-        self.nonce += 1
+class Block:
+    ...
+    def calculate_nonce(self):
+        while(str(self.hash)[0:self.workDifficulty] != '0' * self.workDifficulty):
+            self.nonce += 1
 ``` 
 
 <br/>

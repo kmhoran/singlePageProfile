@@ -1,19 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ShowdownModule }  from 'ngx-showdown';
+import { ShowdownModule } from 'ngx-showdown';
 
 import { HttpModule, JsonpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
-import { RouterModule, Routes } from "@angular/router";
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ShortCvComponent } from './cv/short-cv.component';
 import { ProjectDetailComponent } from './projects/project-detail.component';
-import { ProjectGuardService } from "./projects/project-guard.service";
+import { ProjectGuardService } from './projects/project-guard.service';
 import { HomeComponent } from './home/home.component';
 import { CvLongComponent } from './cv/cv-long.component';
 import { MinesweeperComponent } from './minesweeper/minesweeper.component';
 import { StarRatingComponent } from './shared/star-rating.component';
+import { ReversePipe } from './shared/reverse.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StarRatingComponent } from './shared/star-rating.component';
     HomeComponent,
     CvLongComponent,
     MinesweeperComponent,
-    StarRatingComponent
+    StarRatingComponent,
+    ReversePipe
   ],
   imports: [
     BrowserModule,
@@ -35,8 +37,8 @@ import { StarRatingComponent } from './shared/star-rating.component';
       {
         path: 'project/:id',
         component: ProjectDetailComponent,
-       // canActivate: [ProjectGuardService]
-      }, 
+        canActivate: [ProjectGuardService]
+      },
       { path: 'minesweeper', component: MinesweeperComponent },
       { path: 'profile', component: CvLongComponent },
       { path: 'home', component: HomeComponent },

@@ -1,5 +1,5 @@
-export interface IProject{
-    id:string;
+export interface IProject {
+    id: number;
     title: string;
     technologies: string[];
     imagePath: string;
