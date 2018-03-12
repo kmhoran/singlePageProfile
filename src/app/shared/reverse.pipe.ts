@@ -10,5 +10,4 @@ export class ReversePipe implements PipeTransform {
       return value.reverse();
     }
   }
-
 }

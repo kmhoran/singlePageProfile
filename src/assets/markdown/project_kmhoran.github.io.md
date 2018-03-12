@@ -1,5 +1,5 @@
 # kmhoran.github.io
-### a Single-Page Portfolio
+### A Single-Page Portfolio
 
 Back in November ‘17, my sister sent me a link to her [online portfolio](http://www.tortoiseandplume.com/about/). She’d been talking about her latest project and I wanted to find out more. Though presented as a simple blog, I was immediately impressed by this in-depth catalog of her favorite pieces of work, and naturally set to work building my own.
 
@@ -7,7 +7,10 @@ Back in November ‘17, my sister sent me a link to her [online portfolio](http:
 
 I had been hosting my own “portfolio” of sorts through the [GitHub Pages](https://pages.github.com/) service. It was a static Html page that used only a token about of jQuery for animations. Sad. If I wanted a single-page masterpiece like my sister, I knew it had to be Angular. That new half-cousin of AngularJS which insists on bringing its friend, Typescript, to all the parties. Yep, no better way to get this portfolio site off the ground than figuring out what all that nonsense was about.
 
-![alt text](./assets/images/angular_friends.jpg "Logo Title Text 1")
+<br/>
+
+![alt text](./assets/images/angular_friends.jpg "Photos courtesy of www.pexels.com")
+<div class="image-description">Typescript, let's roll out.</div>
 
 <br/>
 
@@ -29,7 +32,7 @@ $ ng g component home
 
 <br/>
 
-Heck, the CLI will even serve the app (which auto updates on saves!).
+Heck, the CLI will even serve the app (which auto-updates on saves!).
 
 ```bash
 $ ng serve --open
@@ -37,7 +40,7 @@ $ ng serve --open
 
 <br/>
 
-And while other frameworks (django comes to mind) come with similar CLIs with similar functionality, even *they* require some app registration and additional tinkering. Angular CLI produces fully registered, running apps out of the box every time! I can’t give the Angular team enough praise on this.
+And while other frameworks (django comes to mind) feature similar CLIs with similar functionality, even *they* require some app registration and additional tinkering. Angular CLI produces fully registered, running apps out of the box every time! I can’t give the Angular team enough praise on this.
 
 <br/>
 
@@ -51,7 +54,8 @@ That being said, I’m kinda glad I got a chance to get familiar with that preco
 
 <br/>
 
-![alt text](./assets/images/bridge.jpg "Logo Title Text 1")
+![alt text](./assets/images/bridge.jpg "Photos courtesy of www.pexels.com")
+<div class="image-description">Photo of an actual JavaScript project.</div>
 
 <br/>
 
@@ -65,6 +69,30 @@ Finally, the thing that got me really excited about this project, and the featur
 ```bash
 $ ng g pipe reverse
 ```
+
+<br/>
+
+Again, what this ultimately means is a lot less time is spent writing boiler-plate code, and a lot more time is spent actually building the unique features of your app.
+
+```javascript
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'reverse'
+})
+export class ReversePipe implements PipeTransform {
+
+  transform(value: any, args?: any): any {
+
+    // Start my code.
+    if (value) {
+      return value.reverse();
+    }
+    // End my code.
+  }
+}
+```
+
 
 <br/>
 

@@ -3,71 +3,131 @@
         "id": "0",
         "title": "GameJS",
         "technologies": [
-            "Javascript",
-            "jQuery"
+            {
+                "name": "Javascript",
+                "path": "./assets/images/javascript_logo.png"
+            },
+            {
+                "name": "jQuery",
+                "path": "./assets/images/jquery_logo.png"
+            }
         ],
         "imagePath": "./assets/images/game-small-rec.jpg",
         "year":2016,
-        "blogPath": "./assets/markdown/project_gameJS.md"
+        "blogPath": "./assets/markdown/project_gameJS.md",
+        "url":"https://github.com/kmhoran/GamesJs"
     },
     {
         "id": "1",
-        "title": ".Net Image Rendering",
+        "title": ".Net Document Rendering",
         "technologies": [
-            "C#",
-            "ASP.Net",
-            "Entity Framework"
+            {
+                "name": "C#",
+                "path": "./assets/images/cSharp_logo.jpg"
+            },
+            {
+                "name": "ASP.Net",
+                "path": "./assets/images/dotNet_logo.png"
+            },
+            {
+                "name": "Entity Framework",
+                "path": "./assets/images/ef_logo.png"
+            }
         ],
         "imagePath": "./assets/images/screen-small-rec.jpg",
         "year":2017,
-        "blogPath": "./assets/markdown/project_imageRendering.md"
+        "blogPath": "./assets/markdown/project_documentRendering.md",
+        "url":"https://github.com/kmhoran/cSharpFileStorage"
+        
     },
     
     {
         "id": "2",
         "title": "RabbitMq Client",
         "technologies": [
-            "C#",
-            "RabbitMQ Message Broker"
+            {
+                "name": "C#",
+                "path": "./assets/images/cSharp_logo.jpg"
+            },
+            {
+                "name": "RabbitMQ",
+                "path": "./assets/images/rabbitmq_logo.png"
+            }
         ],
         "imagePath": "./assets/images/line-small-rec.jpg",
         "year":2018,
-        "blogPath": "./assets/markdown/project_rabbitMqClient.md"
+        "blogPath": "./assets/markdown/project_rabbitMqClient.md",
+        "url":"https://github.com/kmhoran/RabbitMQ"
     },
     {
         "id": "3",
         "title": "Git Photobooth",
         "technologies": [
-            "Python",
-            "Git",
-            "Bash"
+            {
+                "name": "Python",
+                "path": "./assets/images/python_logo.jpg"
+            },
+            {
+                "name": "Git",
+                "path": "./assets/images/Git_logo.png"
+            },
+            {
+                "name": "Bash",
+                "path": "./assets/images/binbash_logo.png"
+            }
+            
+            
+            
         ],
         "imagePath": "./assets/images/selfie-small-rec.jpg",
         "year":2018,
-        "blogPath": "./assets/markdown/project_gitPhotobooth.md"
+        "blogPath": "./assets/markdown/project_gitPhotobooth.md",
+        "url":"https://github.com/kmhoran/gitPhotobooth"
     },
     {
         "id": "4",
         "title": "Block Chain",
         "technologies": [
-            "Python",
-            "Flask"
+            {
+                "name": "Python",
+                "path": "./assets/images/python_logo.jpg"
+            },{
+                "name": "Flask",
+                "path": "./assets/images/flask_logo.png"
+            }
         ],
         "imagePath": "./assets/images/blocks-rec.jpg",
         "year":2018,
-        "blogPath": "./assets/markdown/project_blockChain.md"
+        "blogPath": "./assets/markdown/project_blockChain.md",
+        "url":"https://github.com/kmhoran/BlockChainDemo"
     },
     {
         "id": "5",
         "title": "kmhoran.github.io",
         "technologies": [
-            "Angular (5)",
-            "Angilar Cli",
-            "Markdown",
-            "GitHub"
+            {"name": "Angular",
+                "path": "./assets/images/angular_logo.png"
+            },
+            {
+                "name" :"Angular CLI",
+                "path":"./assets/images/angular_CLI_logo.png"
+            },
+            {
+                "name" :"Typescript",
+                "path":"./assets/images/typescript_logo.png"
+            },
+            {
+                "name" :"Markdown",
+                "path":"./assets/images/markdown_logo.png" 
+            },
+            {
+                "name" :"GitHub",
+                "path":"./assets/images/Git_logo.png" 
+            }
         ],
         "imagePath": "./assets/images/resume-small-rec.jpg",
         "year":2018,
-        "blogPath": "./assets/markdown/project_kmhoran.github.io.md"
+        "blogPath": "./assets/markdown/project_kmhoran.github.io.md",
+        "url":"https://github.com/kmhoran/kmhoran.github.io"
     }
 ]

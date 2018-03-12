@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 .project-image-frame {
     padding: 0;
 }
@@ -7,15 +9,48 @@
     margin: 0;
 }
 
+.project-title{
+    font-size: 2em;
+    font-family: 'Merriweather', serif;
+}
+.project-year{
+    font-size: 1.3em;
+    margin-bottom: 0.7em;
+}
+.project-url a{
+    text-decoration-color: none;
+    color:  #F46036 !important;
+}
+.tech{
+    display: inline-block;
+    text-align: center;
+    min-height: 9em;
+    width: 9em;
+    padding: 1px;
+    padding-top: 0.7em;
+    font-weight: 700;
+    /* border: 1px solid red; */
+}
+.tech:hover{
+    background-color: #bdbdff;
+    color: #372248;
+}
+
+.tech-logo{
+    height: 6em;
+    border-radius: 5px;
+    margin-bottom: 0.3em;
+}
 .blog {
     background-color: #372248;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 5px;
     padding: 0;
+    overflow: hidden;
 }
 
 .content {
     margin: 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }

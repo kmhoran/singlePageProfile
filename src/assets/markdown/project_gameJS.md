@@ -3,9 +3,9 @@
 A few years ago I noticed something terrible. Microsoft no longer includes that classic minsweeper game that came standard with any Windows 98 download -- the one you spent hours mastering. The one one that turned all your boring extra time into a thrilling chase for a yellow face in sunglasses. I knew something had to be done. So with a fancy new jQuery pattern in hand I went to work building my very own replacement. 
 
 <br/>
-![minesweeper](./assets/images/minesweeper_classic_1.png "Sweet sweet victory.")
+![minesweeper](./assets/images/minesweeper_classic_1.png "image by rdiachenko")
+<div>Sweet sweet victory.</div>
 
-*image by [rdiachenko](https://github.com/rdiachenko/minesweeper)*
 <br/> 
 
 At it's heart, this game is a simple jQuery application. Unlike most jQuery projects, though, this application is built around a central, project-wide 'Main' object. This stateful object preserves the the game context by internalizing all available properties and methods. This helps the developer avoid using those troublesome global objects, and provides some stability to this framework-free design. When you use this type of pattern, everything is in scope. 
