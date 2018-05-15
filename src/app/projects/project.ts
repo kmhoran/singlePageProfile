@@ -4,8 +4,8 @@ export interface IProject {
     technologies: INamedPath[];
     imagePath: string;
     year: number;
-    blogPath: string;
     repositoryUrl: string;
+    blogUrl: string;
     color: string;
 }
 

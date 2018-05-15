@@ -8,6 +8,9 @@
          *ngFor="let tech of project?.technologies">
          <img class="icon-image"
               [src]="tech.path">
+              <div class="icon-name">
+                {{tech.name}}
+              </div>
         </div>
   </div>
   <div class="col-sm-8 text">

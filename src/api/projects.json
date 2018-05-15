@@ -15,8 +15,7 @@
         "imagePath": "./assets/images/game-small-rec.jpg",
         "year":2016,
         "blogPath": "./assets/markdown/project_gameJS.md",
-        "repositoryUrl":"https://github.com/kmhoran/GamesJs",
-        "color": "green"
+        "repositoryUrl":"https://github.com/kmhoran/GamesJs"
     },
     {
         "id": "1",
@@ -38,8 +37,7 @@
         "imagePath": "./assets/images/screen-small-rec.jpg",
         "year":2017,
         "blogPath": "./assets/markdown/project_documentRendering.md",
-        "repositoryUrl":"https://github.com/kmhoran/cSharpFileStorage",
-        "color": "red"
+        "repositoryUrl":"https://github.com/kmhoran/cSharpFileStorage"
         
     },
     
@@ -59,8 +57,7 @@
         "imagePath": "./assets/images/line-small-rec.jpg",
         "year":2018,
         "blogPath": "./assets/markdown/project_rabbitMqClient.md",
-        "repositoryUrl":"https://github.com/kmhoran/RabbitMQ",
-        "color": "blue"
+        "repositoryUrl":"https://github.com/kmhoran/RabbitMQ"
     },
     {
         "id": "3",
@@ -82,8 +79,7 @@
         "imagePath": "./assets/images/selfie-small-rec.jpg",
         "year":2018,
         "blogPath": "./assets/markdown/project_gitPhotobooth.md",
-        "repositoryUrl":"https://github.com/kmhoran/gitPhotobooth",
-        "color": "orange"
+        "repositoryUrl":"https://github.com/kmhoran/gitPhotobooth"
     },
     {
         "id": "4",
@@ -99,9 +95,7 @@
         ],
         "imagePath": "./assets/images/blocks-rec.jpg",
         "year":2018,
-        "blogPath": "./assets/markdown/project_blockChain.md",
-        "repositoryUrl":"https://github.com/kmhoran/BlockChainDemo",
-        "color": "yellow"
+        "repositoryUrl":"https://github.com/kmhoran/BlockChainDemo"
     },
     {
         "id": "5",
@@ -125,8 +119,6 @@
         ],
         "imagePath": "./assets/images/resume-small-rec.jpg",
         "year":2018,
-        "blogPath": "./assets/markdown/project_kmhoran.github.io.md",
-        "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io",
-        "color": "green"
+        "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io"
     }
 ]
