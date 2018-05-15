@@ -15,6 +15,8 @@ import { CvLongComponent } from './cv/cv-long.component';
 import { MinesweeperComponent } from './minesweeper/minesweeper.component';
 import { StarRatingComponent } from './shared/star-rating.component';
 import { ReversePipe } from './shared/reverse.pipe';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ReversePipe } from './shared/reverse.pipe';
     CvLongComponent,
     MinesweeperComponent,
     StarRatingComponent,
-    ReversePipe
+    ReversePipe,
+    AboutPageComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +43,8 @@ import { ReversePipe } from './shared/reverse.pipe';
         component: ProjectDetailComponent,
         canActivate: [ProjectGuardService]
       },
-      { path: 'minesweeper', component: MinesweeperComponent },
+      { path: 'about', component: AboutPageComponent },
+      { path: 'contact', component: ContactComponent },
       { path: 'profile', component: CvLongComponent },
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
