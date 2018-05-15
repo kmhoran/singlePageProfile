@@ -1,6 +1,6 @@
 <div class="app">
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -11,33 +11,30 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class='navbar-brand'
-         [routerLink]="['/home']">{{pageTitle}}</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li>
-            <a [routerLink]="['/home']">Home</a>
-          </li>
-          <li>
-            <a [routerLink]="['/profile']">Profile</a>
-          </li>
-          <li>
-            <a [routerLink]="['/project/5']">About This Site</a>
-          </li>
-          <li><a href="./assets/documents/20180304_masterResume.pdf"
-                 target="_blank">Resume</a>
-          </li>
-        </ul>
-
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="https://github.com/kmhoran" target="_blank">GitHub</a>
+            <a [routerLink]="['/home']"
+              class="menu-item">Home</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/kevin-horan-3783a062/" target="_blank">LinkedIn</a>
+            <a [routerLink]="['/profile']"
+              class="menu-item">About</a>
+          </li>
+          <li>
+            <a [routerLink]="['/project/5']"
+              class="menu-item">Projects</a>
+          </li>
+          <li><a href="./assets/documents/20180304_masterResume.pdf"
+                 target="_blank"
+                 class="menu-item">Resume</a>
+          </li>
+          <li>
+            <a [routerLink]="['/project/5']"
+               class="menu-item">Contact</a>
           </li>
         </ul>
       </div>
@@ -48,27 +45,6 @@
 
   <router-outlet></router-outlet>
 <div class="footer">
-  <div class="name">Kevin Horan</div>
-  <div class="location">Los Angeles</div>
-  <div class="phone"><span class="fa fa-phone"></span> (949) 411-1324</div>
-  <div class="email"><span class="fa fa-envelope"></span> kevin.michael.horan@gmail.com</div>
-  <div class="social-media">
-    <a href="https://www.linkedin.com/in/kevin-horan-3783a062/"
-       target="_blank"
-       class="site">
-      <span class="fa fa-linkedin-square fa-3x"></span>
-      </a>
-      <a href="https://github.com/kmhoran"
-       target="_blank"
-       class="site">
-      <span class="fa fa-github fa-3x"></span>
-      </a>
-      <a href="https://twitter.com/KevinMHoran1"
-       target="_blank"
-       class="site">
-      <span class="fa fa-twitter-square fa-3x"></span>
-      </a>
-  </div>
   <div class="copyright">Copyright © MIT</div>
 </div>
 <!-- ./footer -->

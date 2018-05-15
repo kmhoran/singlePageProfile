@@ -1,34 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
+body{
+    background-image: url('../assets/images/white_desk.jpg');
+   
+}
 .app {
-    background-color: #171123 !important;
-    color: #eee;
+    color: #999;
     min-height: 100%
 }
 .container-fluid{
     /* background-color: #171123; */
-    background-color: #222;
     padding-bottom: 0.7em;
 }
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+}
 
-
-.navbar-default .navbar-nav>li>a {
-    color: #eee;
+.navbar-nav>li>a {
+    color: #fff;
     font-weight: 600;
+    font-size: 2.5em;
+    padding: 0.3em 0;
+    margin: 0 0.3em;
+    margin-bottom: 2px;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-nav>li>a:hover {
     /* color: #5B85AA; */
-    color: #F46036;
+    color: rgb(255, 85, 38);
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px dashed rgb(255, 85, 38);
+    margin-bottom: 0;
 }
-
+/* 
 .navbar-default {
     border-color: #171123;
-}
+} */
 
 nav .navbar-brand {
     /* color: #BDD3E7; */
-    color: #eee;
     /* background-color: #171123; */
     font-size: 3em;
     font-family: 'Source Sans Pro', sans-serif;
@@ -64,7 +73,7 @@ nav .navbar-nav{
     text-decoration: none;
 }
 .footer .site:hover{
-    color: #F46036;
+    color: rgb(255, 85, 38);
 }
 .footer .copyright{
     padding-top: 1em;
