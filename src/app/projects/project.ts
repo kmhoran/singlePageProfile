@@ -5,7 +5,8 @@ export interface IProject {
     imagePath: string;
     year: number;
     blogPath: string;
-    url: string;
+    repositoryUrl: string;
+    color: string;
 }
 
 export interface INamedPath {

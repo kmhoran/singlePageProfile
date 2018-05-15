@@ -1,0 +1,19 @@
+<div class="tile-frame"
+     [ngClass]="project?.color">
+<div class="tile">
+<div class="project-title">{{project?.title}}</div>
+<div class="row">
+  <div class="col-sm-4 icons">
+    <div class="icon"
+         *ngFor="let tech of project?.technologies">
+         <img class="icon-image"
+              [src]="tech.path">
+        </div>
+  </div>
+  <div class="col-sm-8 text">
+    <a [href]="project?.repositoryUrl"
+       target="_blank">check out the code</a>
+  </div>
+</div>
+</div>
+</div>
