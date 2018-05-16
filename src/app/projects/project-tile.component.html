@@ -2,8 +2,9 @@
      [ngClass]="project?.color">
 <div class="tile">
 <div class="project-title">{{project?.title}}</div>
+<div class="project-year">{{project?.year}}</div>
 <div class="row">
-  <div class="col-sm-4 icons">
+  <div class="col-sm-4 col-xs-4 icons">
     <div class="icon"
          *ngFor="let tech of project?.technologies">
          <img class="icon-image"
@@ -13,9 +14,15 @@
               </div>
         </div>
   </div>
-  <div class="col-sm-8 text">
-    <a [href]="project?.repositoryUrl"
+  <div class="col-sm-8 col-xs-8 text">
+    <div class="project-link">
+        <a [href]="project?.repositoryUrl"
        target="_blank">check out the code</a>
+    </div>
+    
+    <div class="project-about"
+         [innerHtml]="project?.about">
+    </div>
   </div>
 </div>
 </div>

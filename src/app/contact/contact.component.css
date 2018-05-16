@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+.heading{
+    position: relative;
+    display: inline-block;
+    left: 2em;
+    font-family: 'Slabo 27px', serif;
+    font-size: 4em;
+    color: #333;
+    margin: 0.2em 0;
+
+}
+.container{
+    
+    width: 100%;
+}
+.contact-container{
+    margin-top: 4em;
+    text-align: center;
+}
+.icon{
+    font-size: 6em;
+    color: #333;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: #81C784;
+}

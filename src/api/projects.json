@@ -119,6 +119,7 @@
         ],
         "imagePath": "./assets/images/resume-small-rec.jpg",
         "year":2018,
-        "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io"
+        "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io",
+        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
     }
 ]

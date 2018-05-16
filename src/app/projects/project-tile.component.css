@@ -11,10 +11,11 @@
 .tile{
     color: #333;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 7px;
     width: 100%;
     height: 100%;
-    background-color: rgba(200, 230, 201, 0.8);
+    background-color: rgba(200, 230, 201, 0.5);
+    transition: all 0.5s;
 }
 
 .tile-frame:hover .tile{
@@ -38,10 +39,22 @@
     width: 100%;
 }
 .icon-image{
-    width: 60%;
+    width: 50%;
 }
 .text{
     margin-top: 1em;
     font-size: 1.2em;
     text-align: left;
+}
+.project-link{
+    margin-bottom: 0.5em;
+}
+.project-link>a{
+    text-decoration: underline;
+}
+.project-link>a:hover{
+    
+}
+.project-about{
+    font-size: 0.8em;
 }
