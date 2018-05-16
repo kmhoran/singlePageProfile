@@ -1,7 +1,7 @@
 <div class="container">
 <div class="heading">Projects</div>
 <div class="projects-container">
-  <app-project-tile *ngFor="let project of projects"
+  <app-project-tile *ngFor="let project of projects | reverse"
                     [project]="project"></app-project-tile>
 </div>
 </div>
