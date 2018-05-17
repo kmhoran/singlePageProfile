@@ -94,6 +94,27 @@
         "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
+        "id": "6",
+        "title": "Video Streaming with Apache Kafka",
+        "technologies": [
+            {"name": "Python",
+                "path": "./assets/images/python_logo.jpg"
+            },
+            {
+                "name" :"Flask",
+                "path":"./assets/images/flask_logo.png"
+            },
+            {
+                "name" :"Apache Kafka",
+                "path":"./assets/images/kafka_logo.jpg"
+            }
+        ],
+        "year":2018,
+        "blogUrl":"https://medium.com/@kevin.michael.horan/distributed-video-streaming-with-python-and-kafka-551de69fe1dd",
+        "repositoryUrl":"https://github.com/kmhoran/DistributedStreamingWithPythonAndKafka",
+        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
         "id": "5",
         "title": "Shareable Database Files",
         "technologies": [
