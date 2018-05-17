@@ -5,6 +5,7 @@ export interface IProject {
     imagePath: string;
     year: number;
     repositoryUrl: string;
+    hostedProjectUrl: string;
     blogUrl: string;
     about: string;
 

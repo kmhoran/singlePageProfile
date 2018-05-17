@@ -99,6 +99,33 @@
     },
     {
         "id": "5",
+        "title": "LA Weather App",
+        "technologies": [
+            {"name": "Python",
+                "path": "./assets/images/python_logo.jpg"
+            },
+            {
+                "name" :"Django",
+                "path":"./assets/images/angular_CLI_logo.png"
+            },
+            {
+                "name" :"A.P.S.",
+                "path":"./assets/images/typescript_logo.png"
+            },
+            {
+                "name" :"Heroku",
+                "path":"./assets/images/Git_logo.png" 
+            }
+        ],
+        "imagePath": "./assets/images/resume-small-rec.jpg",
+        "year":2018,
+        "blogUrl":"https://medium.com/@kevin.michael.horan/scheduling-tasks-in-django-with-the-advanced-python-scheduler-663f17e868e6",
+        "hostedProjectUrl":"https://la-weather-app.herokuapp.com",
+        "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io",
+        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "id": "6",
         "title": "kmhoran.github.io",
         "technologies": [
             {"name": "Angular",

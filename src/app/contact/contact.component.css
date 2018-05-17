@@ -17,6 +17,7 @@
 .contact-container{
     margin-top: 5em;
     text-align: center;
+    user-select: none;
 }
 .contact-container>a{
     outline: 0;
@@ -31,9 +32,18 @@
 .icon:hover{
     color: #81C784;
 }
+a:hover{
+    text-decoration: none;
+}
+.email{
+    text-align:center;
+    margin: 1em 0 0 0;
+    font-weight: 700;
+}
 .city{
     margin-top: 1em;
     text-align: center;
     font-size: 2em;
     font-family: 'Slabo 27px', serif;
+    user-select: none;
 }
