@@ -53,7 +53,7 @@
     text-decoration: underline;
 }
 .project-link>a:hover{
-    
+    color: rgb(255, 85, 38);
 }
 .project-about{
     font-size: 0.8em;
