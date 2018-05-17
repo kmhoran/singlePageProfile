@@ -22,39 +22,19 @@ body{
     font-size: 2.5em;
     padding: 0.3em 0;
     margin: 0 0.3em;
+    user-select: none;
+    background-color: rgba(0,0,0,0);
+    outline: 0;
 }
 
 .navbar-nav>li>a:hover {
     /* color: #5B85AA; */
     color: rgb(255, 85, 38);
+    /* color: #A5D6A7; */
     background-color: rgba(0,0,0,0);
     margin-bottom: 0;
 }
-.footer{
-    /* min-height: 5em;
-    padding: 2em 0;
-    text-align:center; */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 1em;
-}
-.footer .name{
-    font-weight: 700;
-}
-.footer .social-media{
-    margin: 1em 0;
-}
-.footer .site{
-    margin: 0 1em;
-    text-decoration: none;
-}
-.footer .site:hover{
-    color: rgb(255, 85, 38);
-}
-.footer .copyright{
-    padding-top: 1em;
-}
+
+
 
 

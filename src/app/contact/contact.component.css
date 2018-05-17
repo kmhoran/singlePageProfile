@@ -10,7 +10,7 @@
     margin: 0.2em 0;
 
 }
-.container{
+.container.row{
     
     width: 100%;
 }
@@ -18,13 +18,22 @@
     margin-top: 5em;
     text-align: center;
 }
+.contact-container>a{
+    outline: 0;
+}
 .icon{
     font-size: 6em;
     color: #333;
-    margin: 0 0.5em;
+    margin: 0.3em 0.5em;
     cursor: pointer;
 }
 
 .icon:hover{
     color: #81C784;
+}
+.city{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Slabo 27px', serif;
 }

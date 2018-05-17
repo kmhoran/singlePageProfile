@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 
-import { IProject } from "./project";
-import { HttpInterceptor } from "../shared/http-interceptor.service"
+import { IProject } from './project';
+import { HttpInterceptor } from '../shared/http-interceptor.service';
 
-import { Observable } from "rxjs/Rx"
+import { Observable } from 'rxjs/Rx';
 
 @Injectable()
 export class ProjectService  {
@@ -12,7 +12,7 @@ export class ProjectService  {
     private _http: HttpInterceptor
   ) {}
 
-  private _projectsUrl = "./api/projects.json";
+  private _projectsUrl = './api/projects.json';
 
 
   public getProjects(): Observable<IProject[]>{
