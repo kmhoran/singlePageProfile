@@ -14,7 +14,7 @@
         ],
         "year":2016,
         "repositoryUrl":"https://github.com/kmhoran/GamesJs",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>I was really excited to make this a couple years back when I encountered a new jQuery pattern that blew my mind. It centers around a core Project object which functions a lot like $score does in Angular.</p><p>I don't use jQuery much these days, but I still consider this a very valuable reference.</p>"
     },
     {
         "id": "1",
@@ -35,7 +35,7 @@
         ],
         "year":2017,
         "repositoryUrl":"https://github.com/kmhoran/cSharpFileStorage",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>I work with a fair amount of file uploading and presentation in my day-to-day. I created this reusable code to handle the basic functionality I often need to offer.</p>"
         
     },
     
@@ -54,7 +54,7 @@
         ],
         "year":2017,
         "repositoryUrl":"https://github.com/kmhoran/RabbitMQ",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>As we migrate a lot of our code base over to a micro-service pattern at work, I've had a lot of experience using the RabbitMQ message broker. It's ability to orchestrate lightweight, yet robust communication in a distributed system is invaluable.</p><p>This is a personal reference for creating RabbitMQ clients in C#.</p>"
     },
     {
         "id": "3",
@@ -75,7 +75,7 @@
         ],
         "year":2018,
         "repositoryUrl":"https://github.com/kmhoran/gitPhotobooth",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>Having fun with Git Hooks, this project blends coding milestones with social media. Each time a user makes a git commit, their webcam takes a picture of them in their moment of triumph.</p><p>More often than not, I ended up with some terrible pictures of myself, but it was an entertaining way to dive into the standard tools Git provides.</p>"
     },
     {
         "id": "4",
@@ -91,7 +91,7 @@
         ],
         "year":2018,
         "repositoryUrl":"https://github.com/kmhoran/BlockChainDemo",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>With all the blockchain hype Bitcoin was stirring up this winter, I was curious about how blockchain technology actually functioned  especially when it came to proof of work.</p><p>This is a textbook implementation of blockchain that I built to run as a cluster of Flask peers.</p>"
     },
     {
         "id": "6",
@@ -112,7 +112,7 @@
         "year":2018,
         "blogUrl":"https://medium.com/@kevin.michael.horan/distributed-video-streaming-with-python-and-kafka-551de69fe1dd",
         "repositoryUrl":"https://github.com/kmhoran/DistributedStreamingWithPythonAndKafka",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>I've spent a lot of time this past year investigating micro-service architecture and the event-driven communication that tends to go along with that.</p><p>In this project I investigate Apache's Kafka message streamer, and spice things up by streaming video rather than plain old text.</p>"
     },
     {
         "id": "5",
@@ -138,7 +138,7 @@
         "year":2018,
         "repositoryUrl":"https://github.com/kmhoran/dbConnect",
         "blogUrl":"https://medium.com/@kevin.michael.horan/shareable-database-with-ms-sql-server-net-entity-framework-73af7372e345",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>An exploration into how ASP.NET ships pre-configured database files to ease developer addoption of a project.</p><p>In my blog I talk about how database-first Entity-Framework models can be built into a cloneable public project.</p>"
     },
     {
         "id": "6",
@@ -152,8 +152,12 @@
                 "path":"./assets/images/django_logo.png"
             },
             {
-                "name" :"A.P.S.",
+                "name" :"Python Scheduler",
                 "path":"./assets/images/alt_python_logo.jpg"
+            },
+            {
+                "name" :"PostgreSQL",
+                "path":"./assets/images/postgres_logo.png" 
             },
             {
                 "name" :"Heroku",

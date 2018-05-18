@@ -23,14 +23,19 @@
     background-color: rgba(200, 230, 201, 1);
 }   
 .project-title{
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
     margin-top: 1em;
     color: #333;
     font-weight: 700;
 }
+.project-year{
+    text-align: center;
+}
 .row{
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 .icons{
     margin-top: 1em;
@@ -40,18 +45,20 @@
     width: 100%;
 }
 .icon-image{
-    width: 50%;
+    width: 40%;
+    border-radius: 7px;
 }
 .text{
-    margin-top: 1em;
     font-size: 1.2em;
     text-align: left;
 }
 .text-links{
     margin-bottom: 0.5em;
 }
-.project-link>a{
+
+.project-link{
     /* text-decoration: underline; */
+    text-align: center;
 }
 .project-link>a:hover{
     color: rgb(255, 85, 38);

@@ -1,8 +1,6 @@
 <div class="row container">
-  <div class="name">Kevin Horan</div>
+  <div class="name">{{name}}</div>
   <div class="tagline">
-    <p>I live for coding.</p>
-      <p>But don't just take it from me:</p>
-      <p>Come see what I've built.</p>
+    <p *ngFor="let line of haiku">{{line}}</p>
   </div>
 </div>

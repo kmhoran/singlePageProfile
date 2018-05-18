@@ -1,7 +1,5 @@
 <div class="tile-frame">
 <div class="tile">
-<div class="project-title">{{project?.title}}</div>
-<div class="project-year">{{project?.year}}</div>
 <div class="row">
   <div class="col-sm-4 col-xs-4 icons">
     <div class="icon"
@@ -14,6 +12,8 @@
         </div>
   </div>
   <div class="col-sm-8 col-xs-8 text">
+      <div class="project-title">{{project?.title}}</div>
+      <div class="project-year">{{project?.year}}</div>
     <div class="text-links">
     <div *ngIf="project?.repositoryUrl" 
          class="project-link">
