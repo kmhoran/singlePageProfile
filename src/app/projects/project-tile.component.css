@@ -16,6 +16,7 @@
     height: 100%;
     background-color: rgba(200, 230, 201, 0.5);
     transition: all 0.5s;
+    overflow: hidden;
 }
 
 .tile-frame:hover .tile{
@@ -50,7 +51,7 @@
     margin-bottom: 0.5em;
 }
 .project-link>a{
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .project-link>a:hover{
     color: rgb(255, 85, 38);

@@ -18,17 +18,23 @@
     <div *ngIf="project?.repositoryUrl" 
          class="project-link">
         <a [href]="project?.repositoryUrl"
-       target="_blank">check out the code</a>
+       target="_blank">
+       <span class="fas fa-code"></span>  check out the code
+      </a>
     </div>
     <div *ngIf="project?.blogUrl" 
          class="project-link">
       <a [href]="project?.blogUrl"
-         target="_blank">read the blog</a>
+         target="_blank">
+        <span class="fab fa-readme"></span> read the blog
+        </a>
     </div>
     <div *ngIf="project?.hostedProjectUrl" 
          class="project-link">
       <a [href]="project?.hostedProjectUrl"
-         target="_blank">visit the site</a>
+         target="_blank">
+         <span class="fas fa-external-link-alt"></span> visit the site
+        </a>
     </div>
   </div>
     <div class="project-about"

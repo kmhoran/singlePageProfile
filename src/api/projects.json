@@ -164,7 +164,7 @@
         "blogUrl":"https://medium.com/@kevin.michael.horan/scheduling-tasks-in-django-with-the-advanced-python-scheduler-663f17e868e6",
         "hostedProjectUrl":"https://la-weather-app.herokuapp.com",
         "repositoryUrl":"https://github.com/kmhoran/la-weather-app",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>This project is built to emphasize the usefulness of the Advanced Python Scheduler. The tool provides some very handy functionality, but configuration within a Django app can get a bit tricky. I detail the patterns that won me success in my blog post.</p><p>The site hosted on Heroku's free tier, so it might take a second to first wake up.</p>"
     },
     {
         "id": "7",
@@ -189,6 +189,6 @@
         "year":2018,
         "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io",
         "hostedProjectUrl":"/home",
-        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/><br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n\nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        "about": "<p>Time to get meta! This is the single-page application you're browsing right now. Built up in Anuglar (5), this was a terrific way to take full advantage of the one hosted webpage GitHub provides each user.</p><p>I'd never used Angular's CLI before this, but now I won't leave home without it.</p>"
     }
 ]
