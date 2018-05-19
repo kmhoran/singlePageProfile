@@ -1,6 +1,6 @@
 import { Component, OnInit  } from '@angular/core';
 
-import { HttpInterceptor } from './shared/http-interceptor.service';
+
 // import { CvService } from "./cv/cv.service";
 import { ProjectService } from './projects/project.service';
 import { IProject } from './projects/project';
@@ -10,13 +10,20 @@ import { IProject } from './projects/project';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   // providers:[HttpInterceptor,CvService,ProjectService]
-  providers: [HttpInterceptor, ProjectService]
+  providers: []
 })
 export class AppComponent implements OnInit {
   pageTitle = 'Kevin Horan';
-  projects: IProject[];
 
-  constructor(private _projectService: ProjectService) {}
-
+  constructor() {}
+   isCollapsed = true;
    ngOnInit() {}
+
+
+   toggleMenuCollapse(): void {
+    this.isCollapsed = !this.isCollapsed;
+  }
+
+
+
 }

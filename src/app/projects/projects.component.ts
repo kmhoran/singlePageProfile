@@ -11,16 +11,16 @@ export class ProjectsComponent implements OnInit {
 
   projects: IProject[];
 
-  constructor(private _projectService: ProjectService){}
+  constructor(private _projectService: ProjectService) {}
 
   ngOnInit() {
-    this._projectService.getProjects()
-    .subscribe(
-      (projects: IProject[]) => {
-        this.projects = projects;
-        console.log('projects: ', projects);
-      }
-    );
+    // this._projectService.getProjects()
+    // .subscribe(
+    //   (projects: IProject[]) => {
+    //     this.projects = projects;
+    //     console.log('projects: ', projects);
+    //   }
+    // );
   }
 
 }

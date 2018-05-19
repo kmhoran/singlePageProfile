@@ -192,7 +192,7 @@
         ],
         "year":2018,
         "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io",
-        "hostedProjectUrl":"/home",
+        "hostedProjectUrl":"/",
         "about": "<p>Time to get meta! This is the single-page application you're browsing right now. Built up in Anuglar (5), this was a terrific way to take full advantage of the one hosted webpage GitHub provides each user.</p><p>I'd never used Angular's CLI before this, but now I won't leave home without it.</p>"
     }
 ]
