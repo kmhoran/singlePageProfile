@@ -23,7 +23,9 @@ export class AppComponent implements OnInit {
    toggleMenuCollapse(): void {
     this.isCollapsed = !this.isCollapsed;
   }
-
+  closeMenu(): void {
+    this.isCollapsed = true;
+  }
 
 
 }

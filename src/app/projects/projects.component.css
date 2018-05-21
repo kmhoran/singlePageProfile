@@ -19,3 +19,8 @@
     width: 100%;
     overflow: hidden;
 }
+@media only screen and (max-width: 600px) {
+    .heading{
+        left: 1em;
+    }
+  }

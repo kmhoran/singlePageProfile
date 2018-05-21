@@ -22,6 +22,7 @@
 .tile-frame:hover .tile{
     background-color: rgba(200, 230, 201, 1);
 }   
+
 .project-title{
     text-align: center;
     font-size: 1.2em;
@@ -46,10 +47,11 @@
 }
 .icon-image{
     width: 40%;
+    /* max-width: 100%; */
     border-radius: 7px;
 }
 .text{
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: left;
 }
 .text-links{
@@ -66,3 +68,18 @@
 .project-about{
     font-size: 0.8em;
 }
+
+@media only screen and (max-width: 600px) {
+    .tile-frame .tile{
+        width: 17em;
+    } 
+    .project-title{
+        font-size: 1.1em;
+    }
+    .project-link{
+      font-size: 0.9em;
+    }
+    .icon-name{
+        font-size: 0.8em;
+    }
+  }

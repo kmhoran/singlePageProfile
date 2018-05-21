@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 body{
     background-image: url('../assets/images/white_desk.jpg');
-   
-}
-.app {
-    color: #999;
-    min-height: 100%
-}
-.container-fluid{
-    /* background-color: #171123; */
-    padding-bottom: 0.7em;
+   min-height: 100%;
 }
 .navbar{
     background-color: rgba(0,0,0,0.2);
@@ -25,6 +17,8 @@ body{
     user-select: none;
     background-color: rgba(0,0,0,0);
     outline: 0;
+    user-select: none;
+    outline: none;
 }
 
 .navbar-nav>li>a:hover {
@@ -34,7 +28,21 @@ body{
     background-color: rgba(0,0,0,0);
     margin-bottom: 0;
 }
-
+.page-content{
+    position: relative;
+    top: 5em;
+    overflow: hidden;
+}
+.navbar-toggler{
+    font-size: 1.5em;
+    color: #fff;
+    border: 1px solid rgb(100, 100, 100);
+    background-color: rgba(0,0,0,0.2);
+    outline: none;
+}
+.navbar-toggler:hover{
+    background-color: rgb(100, 100, 100);
+}
 
 
 

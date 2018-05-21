@@ -10,12 +10,11 @@
     margin: 0.2em 0;
 
 }
-.container.row{
-    
-    width: 100%;
+.content{
+    text-align: center;
 }
 .contact-container{
-    margin-top: 5em;
+    margin-top: 2em;
     text-align: center;
     user-select: none;
 }
@@ -47,3 +46,11 @@ a:hover{
     font-family: 'Slabo 27px', serif;
     user-select: none;
 }
+@media only screen and (max-width: 600px) {
+    .heading{
+        left: 1em;
+    }
+    .icon{
+        font-size: 4em;
+    }
+  }
