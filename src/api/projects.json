@@ -194,5 +194,29 @@
         "repositoryUrl":"https://github.com/kmhoran/kmhoran.github.io",
         "hostedProjectUrl":"/",
         "about": "<p>Time to get meta! This is the single-page application you're browsing right now. Built up in Anuglar (5), this was a terrific way to take full advantage of the one hosted webpage GitHub provides each user.</p><p>I'd never used Angular's CLI before this, but now I won't leave home without it.</p>"
+    },
+    {
+        "id": "8",
+        "title": "Djangular Dictionary",
+        "technologies": [
+            {
+                "name" :"Angular CLI",
+                "path":"./assets/images/angular_CLI_logo.png"
+            },
+            {"name": "Python",
+                "path": "./assets/images/python_logo.jpg"
+            },
+            {
+                "name" :"Django",
+                "path":"./assets/images/django_logo.png"
+            },
+            {
+                "name" :"Heroku",
+                "path":"./assets/images/heroku_logo.png" 
+            }
+        ],
+        "year":2018,
+        "repositoryUrl":"https://github.com/kmhoran/django_dictionary_server",
+        "about": "<p>This project was a proof of concept for a single-page, blog-style, Angular6 app that runs on Django. My goal was to pull these technologies together and deploy a production-ready site.</p><p>As of this writing, I am detailing the steps I took for a new blog post. I want to give readers the tools they need to build and deploy an Angular app today. It's gonna be lit.</p>"
     }
 ]
